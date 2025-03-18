@@ -251,7 +251,7 @@ const projects = [
     ],
     image: dashboard,
     source_code_link: "https://github.com/ahujasherry/React-admin-Dashboard.git",
-    live_demo_link: "https://streamify-flax.vercel.app/",
+    live_demo_link: "https://react-admin-dashboard-two-eta.vercel.app/",
   },
   {
     name: "Streamify",
