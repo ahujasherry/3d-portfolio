@@ -44,8 +44,8 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+            Sherry &nbsp;
+            <span className='sm:block hidden'> | Full Stack Web Developer</span>
           </p>
         </Link>
 
@@ -61,6 +61,37 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+
+          <li className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer'>
+              <a
+                href='https://www.linkedin.com/in/sherryahuja'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                LinkedIn
+              </a>
+            </li>
+
+           
+            <li className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer'>
+              <a
+                href='https://github.com/ahujasherry'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                GitHub
+              </a>
+            </li>
+
+            <li className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer'>
+              <a
+                href='https://docs.google.com/document/d/1NZxqz9938LhHSw3OEfqw-eGMJ-vzkd4_/edit?usp=sharing&ouid=118132214452161611126&rtpof=true&sd=true'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Resume
+              </a>
+            </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>

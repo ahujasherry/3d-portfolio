@@ -20,17 +20,37 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import framer from "./tech/framer.png";
+import taskify from "./tech/taskify.png";
+import dashboard from "./tech/dashboard.png";
+import streamify from "./tech/streamify.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+
+import mypaisaa from "./company/mypaisaa.png";
+import paypal from "./company/paypal.png";
+import talink from "./company/talink.png";
+import samsung from "./company/samsung.png";
+import western from "./company/western.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  framer,
+  taskify,
+  dashboard,
+  streamify,
+  mypaisaa,
+  paypal,
+  talink,
+  samsung,
   logo,
   backend,
   creator,
@@ -59,4 +79,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  western
 };
